@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93085C7B141C12710073CAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93085C7A141C12710073CAB3 /* Cocoa.framework */; };
+		93085C85141C12710073CAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93085C83141C12710073CAB3 /* InfoPlist.strings */; };
+		93085C87141C12710073CAB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085C86141C12710073CAB3 /* main.m */; };
+		93085C8B141C12710073CAB3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93085C89141C12710073CAB3 /* Credits.rtf */; };
+		93085C8E141C12710073CAB3 /* ClackityClackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085C8D141C12710073CAB3 /* ClackityClackAppDelegate.m */; };
+		93085C91141C12720073CAB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93085C8F141C12720073CAB3 /* MainMenu.xib */; };
+		93085C99141C12730073CAB3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93085C98141C12730073CAB3 /* SenTestingKit.framework */; };
+		93085C9A141C12730073CAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93085C7A141C12710073CAB3 /* Cocoa.framework */; };
+		93085CA2141C12730073CAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93085CA0141C12730073CAB3 /* InfoPlist.strings */; };
+		93085CA4141C12730073CAB3 /* ClackityClackTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 93085CA3141C12730073CAB3 /* ClackityClackTests.h */; };
+		93085CA6141C12730073CAB3 /* ClackityClackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085CA5141C12730073CAB3 /* ClackityClackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93085C9B141C12730073CAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93085C6D141C126F0073CAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93085C75141C12700073CAB3;
+			remoteInfo = ClackityClack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93085C76141C12710073CAB3 /* ClackityClack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClackityClack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93085C7A141C12710073CAB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		93085C7D141C12710073CAB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		93085C7E141C12710073CAB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93085C7F141C12710073CAB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93085C82141C12710073CAB3 /* ClackityClack-Info.plist */ = {isa = PBXFileReference; path = "ClackityClack-Info.plist"; sourceTree = "<group>"; };
+		93085C84141C12710073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93085C86141C12710073CAB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93085C88141C12710073CAB3 /* ClackityClack-Prefix.pch */ = {isa = PBXFileReference; path = "ClackityClack-Prefix.pch"; sourceTree = "<group>"; };
+		93085C8A141C12710073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		93085C8C141C12710073CAB3 /* ClackityClackAppDelegate.h */ = {isa = PBXFileReference; path = ClackityClackAppDelegate.h; sourceTree = "<group>"; };
+		93085C8D141C12710073CAB3 /* ClackityClackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClackityClackAppDelegate.m; sourceTree = "<group>"; };
+		93085C90141C12720073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93085C97141C12730073CAB3 /* ClackityClackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClackityClackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93085C98141C12730073CAB3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		93085C9F141C12730073CAB3 /* ClackityClackTests-Info.plist */ = {isa = PBXFileReference; path = "ClackityClackTests-Info.plist"; sourceTree = "<group>"; };
+		93085CA1141C12730073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93085CA3141C12730073CAB3 /* ClackityClackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClackityClackTests.h; sourceTree = "<group>"; };
+		93085CA5141C12730073CAB3 /* ClackityClackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClackityClackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93085C73141C12700073CAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085C7B141C12710073CAB3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93085C93141C12730073CAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085C99141C12730073CAB3 /* SenTestingKit.framework in Frameworks */,
+				93085C9A141C12730073CAB3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93085C6B141C126F0073CAB3 = {
+			isa = PBXGroup;
+			children = (
+				93085C80141C12710073CAB3 /* ClackityClack */,
+				93085C9D141C12730073CAB3 /* ClackityClackTests */,
+				93085C79141C12710073CAB3 /* Frameworks */,
+				93085C77141C12710073CAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93085C77141C12710073CAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93085C76141C12710073CAB3 /* ClackityClack.app */,
+				93085C97141C12730073CAB3 /* ClackityClackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93085C79141C12710073CAB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93085C7A141C12710073CAB3 /* Cocoa.framework */,
+				93085C98141C12730073CAB3 /* SenTestingKit.framework */,
+				93085C7C141C12710073CAB3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93085C7C141C12710073CAB3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93085C7D141C12710073CAB3 /* AppKit.framework */,
+				93085C7E141C12710073CAB3 /* CoreData.framework */,
+				93085C7F141C12710073CAB3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		93085C80141C12710073CAB3 /* ClackityClack */ = {
+			isa = PBXGroup;
+			children = (
+				93085C8C141C12710073CAB3 /* ClackityClackAppDelegate.h */,
+				93085C8D141C12710073CAB3 /* ClackityClackAppDelegate.m */,
+				93085C8F141C12720073CAB3 /* MainMenu.xib */,
+				93085C81141C12710073CAB3 /* Supporting Files */,
+			);
+			path = ClackityClack;
+			sourceTree = "<group>";
+		};
+		93085C81141C12710073CAB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93085C82141C12710073CAB3 /* ClackityClack-Info.plist */,
+				93085C83141C12710073CAB3 /* InfoPlist.strings */,
+				93085C86141C12710073CAB3 /* main.m */,
+				93085C88141C12710073CAB3 /* ClackityClack-Prefix.pch */,
+				93085C89141C12710073CAB3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93085C9D141C12730073CAB3 /* ClackityClackTests */ = {
+			isa = PBXGroup;
+			children = (
+				93085CA3141C12730073CAB3 /* ClackityClackTests.h */,
+				93085CA5141C12730073CAB3 /* ClackityClackTests.m */,
+				93085C9E141C12730073CAB3 /* Supporting Files */,
+			);
+			path = ClackityClackTests;
+			sourceTree = "<group>";
+		};
+		93085C9E141C12730073CAB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93085C9F141C12730073CAB3 /* ClackityClackTests-Info.plist */,
+				93085CA0141C12730073CAB3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93085C75141C12700073CAB3 /* ClackityClack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93085CA9141C12730073CAB3 /* Build configuration list for PBXNativeTarget "ClackityClack" */;
+			buildPhases = (
+				93085C72141C12700073CAB3 /* Sources */,
+				93085C73141C12700073CAB3 /* Frameworks */,
+				93085C74141C12700073CAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClackityClack;
+			productName = ClackityClack;
+			productReference = 93085C76141C12710073CAB3 /* ClackityClack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93085C96141C12730073CAB3 /* ClackityClackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93085CAC141C12730073CAB3 /* Build configuration list for PBXNativeTarget "ClackityClackTests" */;
+			buildPhases = (
+				93085C92141C12730073CAB3 /* Sources */,
+				93085C93141C12730073CAB3 /* Frameworks */,
+				93085C94141C12730073CAB3 /* Resources */,
+				93085C95141C12730073CAB3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93085C9C141C12730073CAB3 /* PBXTargetDependency */,
+			);
+			name = ClackityClackTests;
+			productName = ClackityClackTests;
+			productReference = 93085C97141C12730073CAB3 /* ClackityClackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93085C6D141C126F0073CAB3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 93085C70141C126F0073CAB3 /* Build configuration list for PBXProject "ClackityClack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93085C6B141C126F0073CAB3;
+			productRefGroup = 93085C77141C12710073CAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93085C75141C12700073CAB3 /* ClackityClack */,
+				93085C96141C12730073CAB3 /* ClackityClackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93085C74141C12700073CAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085C85141C12710073CAB3 /* InfoPlist.strings in Resources */,
+				93085C8B141C12710073CAB3 /* Credits.rtf in Resources */,
+				93085C91141C12720073CAB3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93085C94141C12730073CAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085CA2141C12730073CAB3 /* InfoPlist.strings in Resources */,
+				93085CA4141C12730073CAB3 /* ClackityClackTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93085C95141C12730073CAB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93085C72141C12700073CAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085C87141C12710073CAB3 /* main.m in Sources */,
+				93085C8E141C12710073CAB3 /* ClackityClackAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93085C92141C12730073CAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93085CA6141C12730073CAB3 /* ClackityClackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93085C9C141C12730073CAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93085C75141C12700073CAB3 /* ClackityClack */;
+			targetProxy = 93085C9B141C12730073CAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93085C83141C12710073CAB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93085C84141C12710073CAB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93085C89141C12710073CAB3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93085C8A141C12710073CAB3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		93085C8F141C12720073CAB3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93085C90141C12720073CAB3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		93085CA0141C12730073CAB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93085CA1141C12730073CAB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93085CA7141C12730073CAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93085CA8141C12730073CAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93085CAA141C12730073CAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClackityClack/ClackityClack-Prefix.pch";
+				INFOPLIST_FILE = "ClackityClack/ClackityClack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93085CAB141C12730073CAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClackityClack/ClackityClack-Prefix.pch";
+				INFOPLIST_FILE = "ClackityClack/ClackityClack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93085CAD141C12730073CAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClackityClack.app/Contents/MacOS/ClackityClack";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClackityClack/ClackityClack-Prefix.pch";
+				INFOPLIST_FILE = "ClackityClackTests/ClackityClackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		93085CAE141C12730073CAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClackityClack.app/Contents/MacOS/ClackityClack";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClackityClack/ClackityClack-Prefix.pch";
+				INFOPLIST_FILE = "ClackityClackTests/ClackityClackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93085C70141C126F0073CAB3 /* Build configuration list for PBXProject "ClackityClack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93085CA7141C12730073CAB3 /* Debug */,
+				93085CA8141C12730073CAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93085CA9141C12730073CAB3 /* Build configuration list for PBXNativeTarget "ClackityClack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93085CAA141C12730073CAB3 /* Debug */,
+				93085CAB141C12730073CAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93085CAC141C12730073CAB3 /* Build configuration list for PBXNativeTarget "ClackityClackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93085CAD141C12730073CAB3 /* Debug */,
+				93085CAE141C12730073CAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93085C6D141C126F0073CAB3 /* Project object */;
+}
