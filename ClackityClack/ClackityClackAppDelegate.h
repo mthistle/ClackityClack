@@ -8,8 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ClackityClackAppDelegate : NSObject <NSApplicationDelegate> {
+@interface ClackityClackAppDelegate : NSObject <NSApplicationDelegate, NSSoundDelegate> {
     NSWindow *window;
+    NSSound  *key;
 }
 
 @property (assign) IBOutlet NSWindow *window;

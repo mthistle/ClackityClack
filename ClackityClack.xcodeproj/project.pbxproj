@@ -18,6 +18,8 @@
 		93085CA2141C12730073CAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93085CA0141C12730073CAB3 /* InfoPlist.strings */; };
 		93085CA4141C12730073CAB3 /* ClackityClackTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 93085CA3141C12730073CAB3 /* ClackityClackTests.h */; };
 		93085CA6141C12730073CAB3 /* ClackityClackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93085CA5141C12730073CAB3 /* ClackityClackTests.m */; };
+		93085D40141C18060073CAB3 /* ClackMediumLength.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 93085D3F141C18060073CAB3 /* ClackMediumLength.aiff */; };
+		93085D42141C1C100073CAB3 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93085D41141C1C100073CAB3 /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +38,24 @@
 		93085C7D141C12710073CAB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		93085C7E141C12710073CAB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		93085C7F141C12710073CAB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		93085C82141C12710073CAB3 /* ClackityClack-Info.plist */ = {isa = PBXFileReference; path = "ClackityClack-Info.plist"; sourceTree = "<group>"; };
+		93085C82141C12710073CAB3 /* ClackityClack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClackityClack-Info.plist"; sourceTree = "<group>"; };
 		93085C84141C12710073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93085C86141C12710073CAB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93085C88141C12710073CAB3 /* ClackityClack-Prefix.pch */ = {isa = PBXFileReference; path = "ClackityClack-Prefix.pch"; sourceTree = "<group>"; };
+		93085C88141C12710073CAB3 /* ClackityClack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClackityClack-Prefix.pch"; sourceTree = "<group>"; };
 		93085C8A141C12710073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		93085C8C141C12710073CAB3 /* ClackityClackAppDelegate.h */ = {isa = PBXFileReference; path = ClackityClackAppDelegate.h; sourceTree = "<group>"; };
+		93085C8C141C12710073CAB3 /* ClackityClackAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClackityClackAppDelegate.h; sourceTree = "<group>"; };
 		93085C8D141C12710073CAB3 /* ClackityClackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClackityClackAppDelegate.m; sourceTree = "<group>"; };
 		93085C90141C12720073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		93085C97141C12730073CAB3 /* ClackityClackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClackityClackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93085C98141C12730073CAB3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		93085C9F141C12730073CAB3 /* ClackityClackTests-Info.plist */ = {isa = PBXFileReference; path = "ClackityClackTests-Info.plist"; sourceTree = "<group>"; };
+		93085C9F141C12730073CAB3 /* ClackityClackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClackityClackTests-Info.plist"; sourceTree = "<group>"; };
 		93085CA1141C12730073CAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93085CA3141C12730073CAB3 /* ClackityClackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClackityClackTests.h; sourceTree = "<group>"; };
 		93085CA5141C12730073CAB3 /* ClackityClackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClackityClackTests.m; sourceTree = "<group>"; };
+		93085CAF141C12B90073CAB3 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		93085CB0141C12B90073CAB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93085D3F141C18060073CAB3 /* ClackMediumLength.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ClackMediumLength.aiff; sourceTree = "<group>"; };
+		93085D41141C1C100073CAB3 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93085D42141C1C100073CAB3 /* ApplicationServices.framework in Frameworks */,
 				93085C7B141C12710073CAB3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +83,9 @@
 		93085C6B141C126F0073CAB3 = {
 			isa = PBXGroup;
 			children = (
+				93085D41141C1C100073CAB3 /* ApplicationServices.framework */,
+				93085CAF141C12B90073CAB3 /* Quartz.framework */,
+				93085CB0141C12B90073CAB3 /* QuartzCore.framework */,
 				93085C80141C12710073CAB3 /* ClackityClack */,
 				93085C9D141C12730073CAB3 /* ClackityClackTests */,
 				93085C79141C12710073CAB3 /* Frameworks */,
@@ -126,6 +136,7 @@
 		93085C81141C12710073CAB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93085D3F141C18060073CAB3 /* ClackMediumLength.aiff */,
 				93085C82141C12710073CAB3 /* ClackityClack-Info.plist */,
 				93085C83141C12710073CAB3 /* InfoPlist.strings */,
 				93085C86141C12710073CAB3 /* main.m */,
@@ -224,6 +235,7 @@
 				93085C85141C12710073CAB3 /* InfoPlist.strings in Resources */,
 				93085C8B141C12710073CAB3 /* Credits.rtf in Resources */,
 				93085C91141C12720073CAB3 /* MainMenu.xib in Resources */,
+				93085D40141C18060073CAB3 /* ClackMediumLength.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
